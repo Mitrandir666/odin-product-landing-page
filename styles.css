@@ -7,7 +7,7 @@
     font-family;
 }
 body{
-    max-width:1340px;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -15,7 +15,7 @@ body{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 175px 25px 175px;
+    padding: 25px 450px 25px 440px;
     background-color: #1F2937;
 }
 
@@ -100,6 +100,9 @@ button{
 
 .random_info{
     padding:25px 175px 25px 175px;
+    max-width:1340px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .random_info>h2{
@@ -133,11 +136,55 @@ padding: 25px;
     text-align: center;
     margin-top: 5px;
     font-size: 16px;
+    color:#1F2937;
 }
 
 .quote_or_citie{
-    padding:25px 175px 25px 175px;
+    padding:100px 305px 100px 260px;
     background-color: #e5e7eb;
     font-size: 36px;
-    font-weight: lighter;
+    color: #1f2937;
+    font-style: italic;  
 }
+
+.citie{
+    padding-left:295px;
+    padding-right:295px;
+}
+
+#thor{
+    text-align: end;
+    font-size: 24px;
+}
+
+.call_to_action{
+    padding:100px 500px 100px 500px;
+}
+
+#blue_box{
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    padding-top: 20px; 
+    padding-bottom: 30px;
+}
+
+#blue_box{
+    color: #f9faf8;
+}
+
+#blue_box>button{
+    border-color: #e5e7eb;
+}
+
+footer{
+    text-align: center;
+    background-color:#1F2937;
+    color:#f9faf8;
+    padding-top:30px;
+    padding-bottom:30px;
+    font-family:'Roboto', sans-serif;
+}
+
